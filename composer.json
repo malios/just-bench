@@ -1,0 +1,29 @@
+{
+    "name": "malios/just-bench",
+    "description": "Modern and minimalistic PHP benchmark library built with PHP 7.",
+    "type": "library",
+    "keywords": [
+      "php",
+      "benchmark",
+      "testing"
+    ],
+    "authors": [
+      {
+        "name": "Mehmed Aliosman",
+        "email": "dev.mehmed.aliosman@gmail.com"
+      }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+      "psr-4": {
+        "JustBench\\": "src/"
+      }
+    }
+}
